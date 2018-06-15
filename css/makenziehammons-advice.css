@@ -1,21 +1,29 @@
-body {
-	font-family: 'Poppins', sans-serif;
+/***** BASE STYLES *****/
+body{
+font-family: 'Oswald', sans-serif;
+background-color: #ffffff;
 }
-header {
+/*****HEADER*****/
+header h1 {
+	color: ##191970;
+	font-size:30px;
+  height:100px;
 	text-align: center;
-	font-size: 50px;
 }
-section {
-	width: 800px;
-	margin: 101px auto;
-}
-section h1 {
+/*****SECTION*****/
+section h2{
+	color:##191970;
+	font-size:20px;
 	text-align: center;
-	font: 32px 'Open Sans';
-	font-weight: bold;
 }
-section p {
-	text-align: center;
-	color: blue;
-	font: 16px 'Open Sans';
+section p{
+	color: #000000;
+	font-size: 15px;
+	text-align: justify;
+}
+/*****FOOTER*****/
+footer{
+	color: #000000;
+	font-size: 9px;
+	text-align: left;
 }
